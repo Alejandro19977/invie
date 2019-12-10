@@ -1,0 +1,256 @@
+.button{
+    border-radius: 12px;
+    background: #fd324e;
+    color: white;
+    border: none;
+    /* width: 80px; */
+    font-size: 20px;
+    background: linear-gradient(to left, #fe344e, #ff7250);
+    padding: 7px 12px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    cursor: pointer;
+    
+}
+
+body {
+    font-family: 'Allerta', sans-serif;
+    margin: 0px;
+}
+
+input, textarea{
+    outline: 0;
+}
+
+input:focus, textarea:focus{
+    background: lightgray;
+}
+
+.contenedor{
+    width: 800px;
+    /* maguin auto hace que se acomode en el centro */
+    margin: auto;
+    position: relative;
+}
+
+.background{
+    background-image: url('../imagenes/background.png');
+    background-size: cover;
+}
+
+textarea{
+    margin-bottom: 5px;
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+
+.titulo-a{
+    font-size: 24px;
+    margin-top: 0;
+
+}
+
+.titulo-b{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.guitarras{
+    color: #1F313C;
+    margin-bottom: 70px;
+}
+
+.guitarras h2 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portada{
+    background-image: url('../imagenes/background.png');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    height: 500px;
+}
+
+.menu{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.logotipo {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.portada a{
+   text-decoration: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    /* flote a la derecha */
+    float: right;
+    position: relative;
+    top: -141px;
+}
+
+.left{
+    /* para que flote a la izquierda */
+    float: left;
+    position: relative;
+   
+}
+
+.guitarra{
+    /* overflow es para que las cosas no se salgan de la caja, producido pro el float */
+    /* overflow: hidden; */
+    border: 1px solid #1F313C;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+    border-radius: 8px;
+}
+
+.guitarra ol{
+    padding: 0;
+}
+
+.contenedor-guitarra-a{
+    padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+    margin-left: 370px;
+    position: relative;
+    bottom: 90px;
+
+}
+
+.header{
+    position: relative;
+}
+
+/* .guitarras{
+    border-radius: 50%; aqui es un circulo
+    border-radius: 10px 20px 30px 40px; cada esquina tiene un radio redondeado
+} */
+
+.footer{
+    background: #1F313C;
+    padding: 15px 10px;
+}
+.contacto{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacto img{
+    display: block;
+    margin-top: 5px;
+   
+}
+
+.contacto strong{
+    display: block  ;
+}
+
+.contacto a{
+    color: white;
+    text-decoration: none;
+    /* margin: 10px 10px 10px 0; */
+}
+
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    color: white;
+    width: 400px;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+    margin-right: 18px;
+}
+
+.col2{
+    align-items: flex-start;
+}
+
+.intereses label{
+    font-size: 13px;
+}
+
+.formulario label, .sexo , .intereses{
+    margin-bottom: 10px;
+}
+
+.sexo{
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+}
+th{
+    background: #1F313C;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 20px;
+}
+
+table, th, td{
+    border: 1px solid #1F313C;
+    border-collapse: collapse;
+}
+
+.menu li::before{
+    content: '∘';
+    font-size: 25px;
+    line-height: 20px;
+    color: white;
+}
+
+.span{
+    text-decoration: underline;
+}
+
+.guitarra.b{
+    height: 200px;
+}
+
+.formulario{
+    padding-top: 25px;
+}
+
+.tabla{
+    margin: 50px 0;
+}
